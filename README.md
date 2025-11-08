@@ -1,4 +1,4 @@
-# Base64 Encoder (No Libraries)
+# Base64 Encoder
 
 This is a simple program that takes a string input from the user and converts it into Base64 encoding (without using any built-in libraries)
 
