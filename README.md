@@ -11,5 +11,5 @@ This is a simple program that takes a string input from the user and converts it
 5. Adds `=` padding if needed
 
 ## Example - 
-### Input - "Hi"
-### Output - 'SGK='
+Input - "Hi"
+Output - 'SGK='
