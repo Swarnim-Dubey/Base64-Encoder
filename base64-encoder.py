@@ -1,6 +1,6 @@
 # base64 encoding wihtout using any in-built library
 
-# defining all the characters that can be entered into the string
+# defining the character set
 alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 
 print("WELCOME TO BASE64 ENCODER !!")
