@@ -57,3 +57,20 @@ def convertFrombase64(a):
             bits += "0"
         b += bits
     
+    #removing extra bits acc to padding\
+    if pad > 0:
+        b = b[:-(pad * 2)]
+    
+    ans = ""
+    i = 0
+
+    while i < len(b):
+        byte = b[i : i + 8]
+        if len(byte) == 8:
+            ans += chr(int(byte, 2))
+        i += 8
+    
+    print("Decoded string is : ", ans)
+
+# menu
+# print("What do you want to do ?\nChoose from one")
